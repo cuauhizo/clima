@@ -53,6 +53,14 @@ body {
   color: var(--blanco);
   font-weight: 400;
   font-size: 1.8rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.formulario select option{
+  background-color: #7e7e7e;
 }
 .formulario input[type="submit"] {
   background-color: var(--primary);
